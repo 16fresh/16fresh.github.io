@@ -1,0 +1,77 @@
+/* Site-wide polish for Butterfly pages. */
+:root {
+  --fresh-card-radius: 18px;
+  --fresh-soft-shadow: 0 12px 35px rgba(31, 41, 55, 0.12);
+  --fresh-border: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+#page,
+#post,
+#archive,
+#category,
+#tag {
+  border-radius: var(--fresh-card-radius);
+  box-shadow: var(--fresh-soft-shadow);
+}
+
+#site-info #site-title {
+  letter-spacing: 0.04em;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.28);
+}
+
+#site-info #site-subtitle {
+  letter-spacing: 0.02em;
+}
+
+.recent-post-item,
+.card-widget,
+.about-section,
+.section-card {
+  border: var(--fresh-border);
+}
+
+.about-section {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+}
+
+[data-theme='dark'] .about-section {
+  background: rgba(30, 41, 59, 0.72);
+}
+
+.section-container {
+  align-items: stretch;
+}
+
+.section-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-card::after {
+  content: '';
+  position: absolute;
+  inset: auto -20% -40% auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: rgba(59, 130, 246, 0.22);
+  pointer-events: none;
+}
+
+.section-link {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 26px;
+  }
+
+  .about-section,
+  .section-card {
+    padding: 20px;
+  }
+}
