@@ -1,4 +1,148 @@
-/* Site-wide polish for Butterfly pages. */
+/* ============================================
+   Aurora Full-Screen Hero — 极光全屏封面
+   ============================================ */
+
+/*
+ * 字体说明：
+ * 当前使用 LXGW WenKai（霞鹜文楷），基于 Klee One 的开源中文字体，
+ * 字形柔美秀丽、笔画灵动轻盈，兼具楷体的工整与行书的流动感。
+ * 通过 jsDelivr CDN 加载，SIL OFL 开源协议，免费可商用。
+ *
+ * 如想替换为其他字体（如祥南行书体、长城中行书体）：
+ *   1. 下载 .ttf 放到 source/fonts/ 目录
+ *   2. 取消下方 @font-face 注释并修改路径
+ *   3. 修改 .hero-title / .hero-subtitle 的 font-family 第一项
+ */
+/*
+@font-face {
+  font-family: '自定义字体';
+  src: url('/fonts/your-font.ttf') format('truetype');
+  font-display: swap;
+}
+*/
+
+.aurora-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/img/home-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* subtle parallax */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aurora-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.30) 0%,
+    rgba(0, 0, 0, 0.45) 60%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+  z-index: 1;
+}
+
+.aurora-hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  padding: 0 28px;
+}
+
+.aurora-hero-content .hero-title {
+  font-family: 'LXGW WenKai Light', 'LXGW WenKai', 'STKaiti', 'KaiTi', '楷体', serif;
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0 0 16px;
+  letter-spacing: 0.06em;
+  text-shadow: 0 4px 50px rgba(0, 0, 0, 0.6);
+  animation: hero-fade-in 1.2s ease-out;
+}
+
+.aurora-hero-content .hero-subtitle {
+  font-family: 'LXGW WenKai Light', 'LXGW WenKai', 'STKaiti', 'KaiTi', '楷体', serif;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  color: #ffffff;
+  opacity: 0.88;
+  letter-spacing: 0.12em;
+  font-weight: 300;
+  margin: 0;
+  animation: hero-fade-in 1.2s ease-out 0.3s both;
+}
+
+@keyframes hero-fade-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* 向下滚动指示器 */
+.aurora-hero .scroll-indicator {
+  position: absolute;
+  bottom: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.78);
+  animation: aurora-float 2s ease-in-out infinite;
+  cursor: pointer;
+}
+
+.aurora-hero .scroll-indicator span {
+  display: block;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  margin-bottom: 8px;
+}
+
+.aurora-hero .scroll-indicator .scroll-arrow {
+  width: 22px;
+  height: 22px;
+  border-right: 2px solid rgba(255, 255, 255, 0.78);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.78);
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+@keyframes aurora-float {
+  0%, 100% { transform: translateX(-50%) translateY(0); opacity: 0.65; }
+  50%      { transform: translateX(-50%) translateY(12px); opacity: 1; }
+}
+
+/* 导航栏在极光封面之上时保持透明 */
+#nav.nav-over-hero {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* 页面头部 banner 裁剪：确保梅西的脸露出来 */
+#page-header {
+  background-position: center 25% !important;
+}
+
+@media (max-width: 768px) {
+  .aurora-hero-content .hero-title {
+    font-size: 2rem;
+  }
+  .aurora-hero-content .hero-subtitle {
+    font-size: 0.95rem;
+  }
+  .aurora-hero {
+    background-attachment: scroll; /* 移动端关闭视差避免抖动 */
+  }
+}
+
+/* ============================================
+   Site-wide polish for Butterfly pages.
+   ============================================ */
 :root {
   --fresh-card-radius: 18px;
   --fresh-soft-shadow: 0 12px 35px rgba(31, 41, 55, 0.12);

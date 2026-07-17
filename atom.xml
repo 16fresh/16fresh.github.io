@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Hsang</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://16fresh.cn/</id>
+  <link href="https://16fresh.cn/" rel="alternate"/>
+  <link href="https://16fresh.cn/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Hsang</rights>
+  <subtitle>Keep writing | Start Coding | 向内求,向外寻</subtitle>
+  <title>16fresh的自留地</title>
+  <updated>2026-05-19T15:04:44.404Z</updated>
+  <entry>
+    <author>
+      <name>Hsang</name>
+    </author>
+    <category term="日记" scheme="https://16fresh.cn/categories/%E6%97%A5%E8%AE%B0/"/>
+    <category term="随笔" scheme="https://16fresh.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="北京" scheme="https://16fresh.cn/tags/%E5%8C%97%E4%BA%AC/"/>
+    <category term="雪" scheme="https://16fresh.cn/tags/%E9%9B%AA/"/>
+    <content>
+      <![CDATA[<p>昨天是北京初雪</p><span id="more"></span><p>  好快呀，离第一次写东西已经过去十天了。虽然这十天，我一点都没对我的blog进行改动。<br>  我其实对现在的整个布局和UI不是很满意，但我最近的事情确实不少。挑战杯的报名刚刚结束，我也做了数字图像处理的实验，还有深度学习的实验，还有多媒体课程的设计，真有点厌学了。<br>  12号北京第一次下雪，下面放一张雪景照片。<br>  <img src="/img/diary/25_12_13/snow.jpg" alt="雪"><br>  下雪的时候我想哭，又是一年过去了，我还是一事无成的感觉，还是自己一个人。<br>  晚上和ice、ww、easy go、josie老师一起吃了烧烤，我每次去吃烧烤都想回家，怎么会有地方的烧烤比徐州烧烤好吃呢。哈哈哈哈哈。出我意料的是，josie老师还掏出来了摄像机，给我拍了张照片，我感觉拍的不是很好看，否则就发朋友圈了，哈哈哈哈，但是我挺喜欢的，什么样子的我都是我，感谢josie老师记录下来了，我不喜欢自拍，身边朋友喜欢拍照的也没有多少，每次都是我给他们拍照，再次感谢josie老师。<br>  <img src="/img/diary/25_12_13/me.jpg" alt="我"><br>  13号考六级了，我真得认真学英语了，我现在英语真退化了，我的语言关一定得过。<br>  <img src="/img/diary/25_12_13/coffee.jpg" alt="lucky coffee"><br>  这几天跟芋丝糕老师聊了不少，怎么说呢，我不是地域歧视，但我真的感觉地理位置相近相近的人、受到的教育更相近共同话题更多。当然也可能是人家家教好，我倒特别后悔给她送榴莲的时候把盒子打开，太下头的行为了，正常人怎么会干出这种事情呢，里面有塑料叉子就放在里面呗，我自己能用手抓着吃的，真该死。我在这里道个歉，在线下说我又感觉太刻意了。<br>  今天会做些UI的调整，期末考之前应该只会写日记，就不会再更新别的东西了，等放假了，我正经学JAVA，做点项目，否则保研保不上，我只能喝西北风了。<br>  我的第一篇技术文章，希望寒假能够发出来。求求我自己了</p><!-- flag of hidden posts -->]]>
+    </content>
+    <id>https://16fresh.cn/2025/12/13/2025-12-13-%E6%9D%82%E8%AE%B0/</id>
+    <link href="https://16fresh.cn/2025/12/13/2025-12-13-%E6%9D%82%E8%AE%B0/"/>
+    <published>2025-12-13T14:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>昨天是北京初雪</p>]]>
+    </summary>
+    <title>今天的记录</title>
+    <updated>2026-05-19T15:04:44.404Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Hsang</name>
+    </author>
+    <category term="日记" scheme="https://16fresh.cn/categories/%E6%97%A5%E8%AE%B0/"/>
+    <category term="随笔" scheme="https://16fresh.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="尝试" scheme="https://16fresh.cn/tags/%E5%B0%9D%E8%AF%95/"/>
+    <category term="失败" scheme="https://16fresh.cn/tags/%E5%A4%B1%E8%B4%A5/"/>
+    <content>
+      <![CDATA[<p>今天是一个非常安静的下午，我由于昨天晚上的失眠＋太极扇课程的劳累，居然一个午觉睡了三个小时。<br>起来之后，我便试着接着完善我的网页，这也算是我发布的第一篇文章了。<br>我搞了2个多小时的vercel的部署却一直失败，只能改天再战了。<br>等我完完全全弄好后，我一定写一篇长文，放到我的首页，教大家如何做自己的网页，少走一些弯路。<br>PS：北京真的好冷，我已经穿上毛衣+羽绒服了</p><!-- flag of hidden posts -->]]>
+    </content>
+    <id>https://16fresh.cn/2025/12/03/2025-12-03-%E6%9D%82%E8%AE%B0/</id>
+    <link href="https://16fresh.cn/2025/12/03/2025-12-03-%E6%9D%82%E8%AE%B0/"/>
+    <published>2025-12-03T11:44:00.000Z</published>
+    <summary>
+      <![CDATA[<p>今天是一个非常安静的下午，我由于昨天晚上的失眠＋太极扇课程的劳累，居然一个午觉睡了三个小时。<br>起来之后，我便试着接着完善我的网页，这也算是我发布的第一篇文章了。<br>我搞了2个多小时的vercel的部署却一直失败，只能改天再战了。<br>等我完完全全弄好后，我一定写]]>
+    </summary>
+    <title>失败且无所事事的一天</title>
+    <updated>2026-05-19T15:04:44.393Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Hsang</name>
+    </author>
+    <content>
+      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><!-- flag of hidden posts -->]]>
+    </content>
+    <id>https://16fresh.cn/2025/12/01/hello-world/</id>
+    <link href="https://16fresh.cn/2025/12/01/hello-world/"/>
+    <published>2025-11-30T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2026-05-19T15:04:44.406Z</updated>
+  </entry>
+</feed>
