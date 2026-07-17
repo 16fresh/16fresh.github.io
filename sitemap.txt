@@ -2,8 +2,8 @@ https://16fresh.cn/tags/index.html
 https://16fresh.cn/index.html
 https://16fresh.cn/letters/guestbook/index.html
 https://16fresh.cn/letters/quotes/index.html
-https://16fresh.cn/letters/comment/index.html
 https://16fresh.cn/letters/diary/index.html
+https://16fresh.cn/letters/comment/index.html
 https://16fresh.cn/letters/index.html
 https://16fresh.cn/categories/index.html
 https://16fresh.cn/about/index.html
@@ -12,8 +12,8 @@ https://16fresh.cn/2025/12/13/2025-12-13-%E6%9D%82%E8%AE%B0/
 https://16fresh.cn/2025/12/03/2025-12-03-%E6%9D%82%E8%AE%B0/
 https://16fresh.cn/
 https://16fresh.cn/tags/%E9%9A%8F%E7%AC%94/
-https://16fresh.cn/tags/%E5%B0%9D%E8%AF%95/
-https://16fresh.cn/tags/%E5%A4%B1%E8%B4%A5/
 https://16fresh.cn/tags/%E5%8C%97%E4%BA%AC/
 https://16fresh.cn/tags/%E9%9B%AA/
+https://16fresh.cn/tags/%E5%B0%9D%E8%AF%95/
+https://16fresh.cn/tags/%E5%A4%B1%E8%B4%A5/
 https://16fresh.cn/categories/%E6%97%A5%E8%AE%B0/
